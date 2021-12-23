@@ -81,7 +81,7 @@ label{
     }
 
     main{
-        width: 40vh;
+        width: 50vh;
         margin: auto;
     }
 
@@ -90,7 +90,7 @@ label{
     }
     #div-login{
         margin: auto;
-        width: 40vh;    
+        width: 50vh;    
     }
 }
 
