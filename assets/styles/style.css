@@ -11,7 +11,8 @@
 
 body{
     
-    background-image: linear-gradient(to right,#2D400B,#26411A,#1B422F,#114344,#044259) !important;
+    background-image: linear-gradient(to right,#2D400B,#26411A,#1B422F,#114344,#044259);
+    margin: 1px;
 }
 
 
@@ -61,7 +62,7 @@ main{
     display: block;
 }
 
-h4{
+.titulo{
     text-align: center;
     font-size: 18px;
     color: var(--verde);
