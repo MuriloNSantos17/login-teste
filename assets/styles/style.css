@@ -2,12 +2,16 @@
 
 *{
     padding: 0px;
-    margin: 0px;
+    
     border: 0px;
 }
 
+body{
+    background-image: linear-gradient(to right,#2D400B,#26411A,#1B422F,#114344,#044259);
+}
+
 main{
-    position: fixed;
+    position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -35,11 +39,13 @@ main{
 
 #div-login{
     background-color: white;
-    padding: 20px;
-    width: 43vh;
+    
+    width: 50vh;
+    position: fixed;
+   
 }
 
-@media only screen and  (max-width: 900px){
+@media only screen and  (max-width: 600px){
     #div-image{
         display: none;
     }
