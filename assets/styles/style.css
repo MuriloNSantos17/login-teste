@@ -74,6 +74,14 @@ label{
     font-size: 13px;
 }
 
+#input-eye{
+    width: 40px;
+    height: 38px;
+    background-color: var(--verde);
+    cursor: pointer;
+    color: white;
+}
+
 @media only screen and  (max-width: 750px){
     #div-image{
         display: none;
@@ -83,6 +91,7 @@ label{
     main{
         width: 50vh;
         margin: auto;
+        position: fixed;
     }
 
     body{
@@ -91,6 +100,7 @@ label{
     #div-login{
         margin: auto;
         width: 50vh;    
+        position: fixed;
     }
 }
 
