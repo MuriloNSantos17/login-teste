@@ -26,8 +26,7 @@ main{
 
 }
 
-.sub-container{
-    
+.sub-container{    
     display: inline-block;
     padding: 30px;
     height: 100%;
@@ -69,16 +68,12 @@ h4{
 
     main{
         width: 40vh;
-        margin: auto;
+        
     }
 
     
-#div-login{
-
-    
-    width: 40vh;
-
-   
-}
+    #div-login{
+        width: 40vh;    
+    }
 }
 
