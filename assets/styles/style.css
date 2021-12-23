@@ -6,11 +6,14 @@
     font-family: 'lato',sans-serif;
 
     --verde: #004362;
+    --corTexto: #797979;
 }
 
 body{
-    background-image: linear-gradient(to right,#2D400B,#26411A,#1B422F,#114344,#044259);
+    
+    background-image: linear-gradient(to right,#2D400B,#26411A,#1B422F,#114344,#044259) !important;
 }
+
 
 main{
     position: absolute;
@@ -46,6 +49,11 @@ main{
     position: fixed;
 }
 
+.div-input{
+    padding: 2px;
+    border: 3px solid black;
+}
+
 .logo-sigra{
     width: 100px;
     position: static;
@@ -59,6 +67,11 @@ h4{
     color: var(--verde);
 }
 
+label{
+    color: var(--corTexto);
+    font-weight: bold;
+    font-size: 13px;
+}
 
 @media only screen and  (max-width: 750px){
     #div-image{
@@ -67,13 +80,14 @@ h4{
     }
 
     main{
-        width: 40vh;
-        
+        width: 50vh;
+        margin: auto;
     }
 
     
     #div-login{
-        width: 40vh;    
+        margin: auto;
+        width: 50vh;    
     }
 }
 
