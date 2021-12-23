@@ -7,6 +7,7 @@
 
     --verde: #004362;
     --corTexto: #797979;
+    --verdeButton:#197D8B;
 }
 
 body{
@@ -66,6 +67,7 @@ main{
     text-align: center;
     font-size: 18px;
     color: var(--verde);
+    font-weight: bold;
 }
 
 label{
@@ -77,9 +79,17 @@ label{
 #input-eye{
     width: 40px;
     height: 38px;
-    background-color: var(--verde);
+    background-color: var(--verdeButton);
     cursor: pointer;
     color: white;
+}
+
+#prg-esqueci-senha{
+    font-size: 13px;
+    text-align: right;
+    font-weight: bold;
+    color: var(--verdeButton);
+    margin-top: -10px;
 }
 
 @media only screen and  (max-width: 750px){
