@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vh;
+    height: 80vh;
+    background-color: blue;
+    border: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.sub-container{
+    display: inline-block;
+    width: 49vh;
+    height: 100%;
+}
+
+#div-image{
+    background-image: url('../images/background.png');
+    background-size: 100% 100%;
+    opacity: 1;
+   
+}
+
+#div-login{
+    background-color: white;
+}
+
+@media only screen and (min-width: 675px) and (max-width: 1200px){
+    #div-image{
+        display: none;
+    }
+
+    main{
+        width: 50vh;
+    }
+}
