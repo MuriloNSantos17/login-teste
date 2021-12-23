@@ -2,8 +2,10 @@
 
 *{
     padding: 0px;
-    
     border: 0px;
+    font-family: 'lato',sans-serif;
+
+    --verde: #004362;
 }
 
 body{
@@ -52,12 +54,21 @@ main{
     display: block;
 }
 
+h4{
+    text-align: center;
+    font-size: 18px;
+    color: var(--verde);
+}
+
+
 @media only screen and  (max-width: 750px){
     #div-image{
         display: none;
     }
 
     main{
-        width: 50vh;
+        width: 40vh;
+        margin: auto;
     }
 }
+
