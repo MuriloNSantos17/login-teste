@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,700;1,900&family=Shippori+Antique&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -34,7 +36,7 @@ main{
     background-color: white;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1200px){
+@media only screen and (min-width: 375px) and (max-width: 1200px){
     #div-image{
         display: none;
     }
