@@ -16,7 +16,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100vh;
-    height: 80vh;
+    height: 70vh;
     background-color: blue;
     border: 0px;
     padding: 0px;
@@ -25,7 +25,7 @@ main{
 
 .sub-container{
     display: inline-block;
-    
+    padding: 30px;
     height: 100%;
 }
 
@@ -45,7 +45,14 @@ main{
    
 }
 
-@media only screen and  (max-width: 600px){
+.logo-sigra{
+    width: 100px;
+    position: static;
+    margin: auto;
+    display: block;
+}
+
+@media only screen and  (max-width: 750px){
     #div-image{
         display: none;
     }
