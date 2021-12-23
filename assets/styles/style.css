@@ -84,8 +84,14 @@ label{
     color: white;
 }
 
-#prg-esqueci-senha{
+p{
     font-size: 13px;
+}
+
+.p-center{
+    text-align: center;
+}
+#prg-esqueci-senha{    
     text-align: right;
     font-weight: bold;
     color: var(--verdeButton);
@@ -100,6 +106,11 @@ label{
     margin-bottom: 20px;
 }
 
+span#cadastro{
+    color: var(--verdeButton);
+    font-weight: bold;
+    
+}
 /*750*/
 @media only screen and  (max-width: 900px){
     #div-image{
