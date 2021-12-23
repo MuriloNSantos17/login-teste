@@ -23,28 +23,28 @@ main{
     border: 0px;
     padding: 0px;
     border-radius: 10px;
+
 }
 
 .sub-container{
+    
     display: inline-block;
     padding: 30px;
     height: 100%;
+    width: 50%;
 }
 
 #div-image{
     background-image: url('../images/background.png');
     background-size: 100% 100%;
     opacity: 1;
-    width: 50vh;
+    
    
 }
 
 #div-login{
-    background-color: white;
-    
-    width: 50vh;
+    background-color: white; 
     position: fixed;
-   
 }
 
 .logo-sigra{
@@ -64,11 +64,21 @@ h4{
 @media only screen and  (max-width: 750px){
     #div-image{
         display: none;
+        
     }
 
     main{
         width: 40vh;
         margin: auto;
     }
+
+    
+#div-login{
+
+    
+    width: 40vh;
+
+   
+}
 }
 
